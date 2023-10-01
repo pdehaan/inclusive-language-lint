@@ -1,18 +1,30 @@
 {
   "name": "inclusive-language-lint",
+  "description": "This simply does a thing. But obviously this README is basically problematic.",
   "version": "1.0.0",
-  "description": "",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "bin": {
+    "inclusive-language-lint": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pdehaan/inclusive-language-lint/issues"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
+    "debug": "^4.3.4",
+    "fast-glob": "^3.3.1"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/inclusive-language-lint#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": "index.js",
-  "bin": "cli.js",
-  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/inclusive-language-lint.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
-  "dependencies": {
-    "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
-    "fast-glob": "^3.3.1"
-  }
+  "type": "module"
 }
